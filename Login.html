@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Login</h1>          
+        </header>
+        <form class="form">
+            <div>
+                <label for="">Usuario:</label>
+                <input type="text" name="usuario-l" id="usuario-l" placeholder="Digite aqui" autocomplete="off" required>
+            </div>
+            <div>
+                <label for="">senha:</label>
+                <input type="password" name="senha-l" id="senha-l" placeholder="Digite a sua senha" required>
+            </div>
+            <div class="botao">
+                <input type="button" value="Login" name="enviar-l" id="enviar-l" onclick="enviar_l()" required><br>
+                <input class="A" type="button" value="Fazer cadastro" onclick="location.assign('Cadastro.html')">
+            </div>
+
+        </form>
+
+    </section>
+    <script src="login.js"></script>
+</body>
+</html>
