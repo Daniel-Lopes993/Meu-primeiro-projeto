@@ -10,6 +10,7 @@ function enviar_c(){
     if(CheckUserAndPass(NameInput, PassInput, PassConfInput)){
         alert("Você foi cadastrado com sucesso!!")
         Cadastrar(NameInput.value, PassInput.value)
+        window.document.location.assign("Login.html")
     }
 }
 
