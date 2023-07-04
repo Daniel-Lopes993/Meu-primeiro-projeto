@@ -1,7 +1,6 @@
 let NameInput = document.querySelector("#usuario-c")
 let PassInput = document.querySelector("#senha-c")
 let PassConfInput = document.querySelector("#confsenha-c")
-
 let UserC = []
 let reload = localStorage.getItem("USERS")
 UserC = JSON.parse(reload)
