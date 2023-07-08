@@ -1,6 +1,7 @@
 let NameInput = document.querySelector("#usuario-c")
 let PassInput = document.querySelector("#senha-c")
 let PassConfInput = document.querySelector("#confsenha-c")
+
 let UserC = []
 let reload = localStorage.getItem("USERS")
 UserC = JSON.parse(reload)
@@ -9,7 +10,6 @@ function enviar_c(){
     if(CheckUserAndPass(NameInput, PassInput, PassConfInput)){
         alert("Você foi cadastrado com sucesso!!")
         Cadastrar(NameInput.value, PassInput.value)
-        window.document.location.assign("Login.html")
     }
 }
 
