@@ -11,6 +11,10 @@ body {
 }
 
 section {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%)
     background-color: rgb(62, 62, 82);
     padding: 15px 15px;
     height: flex;
